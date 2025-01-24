@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+}
+/* Tutorial */
+/* .div{
+    background-color: greenyellow;
+    display: flex;
+    justify-content:space-around ;
+    flex-wrap: wrap;
+    width:40px;
+}
+h1{
+    background-color:black;
+    margin:10px;
+    color:white;
+    padding:20px;
+    height:100px;
+    width:100px
+} */
+ .gallery{
+    background-color: black;
+    height:100%;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin:10px;
+ }
+ .images{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+ }
+ img{
+    height: 200px;
+    width:200px;
+    margin:10px
+ }
+ .card{
+    /* width:200px; */
+    flex-basis: 20%;
+    flex-grow: 2;
+ }
+
+ .grow{
+    display: flex;
+    height:130px;
+    /* width:100vw; */
+    background-color: aquamarine;
+    padding:10px;
+    flex-wrap: wrap;
+    margin:10px
+}
+ .g{
+    height:50px;
+    /* width: 50px; */
+    background-color: brown;
+    margin: 10px;
+    flex-grow: 1;
+    flex-basis: 20%;
+ }
+
+ .ex{
+    height:500px;
+    /* width:100%; */
+    background-color: darkgoldenrod;
+    margin:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .inner{
+    height:400px;
+    width:80vw;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius:25px
+ }
+ .child{
+    height:50px;
+    width:50vw;
+    background-color: aliceblue;
+    margin:10px;
+    border-radius:25px;
+ }

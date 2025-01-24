@@ -1,0 +1,29 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+header{
+    /* background-color: red; */
+    text-align: center;
+    border-bottom:2px solid greenyellow;
+
+}
+
+section{
+    /* background-color: blue; */
+    margin:15px;
+    padding:10px;
+    border-bottom:2px solid greenyellow;
+}
+.about-h, .edu-h{
+    text-align: center;
+    font-size:30px
+}
+.edu-psr{
+    background-color: aquamarine;
+    border-radius: 20px;
+    padding:10px;
+    margin: 20px;
+    text-align: center;
+}
