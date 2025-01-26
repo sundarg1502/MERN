@@ -1,0 +1,59 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color: #F8FAFC;
+}
+header{
+    display: flex;
+    margin:10px;
+    height: 50px;
+    width:93%;
+    background-color: white;
+    border-radius :25px;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+    padding:20px
+}
+header img{
+    height: 50px;
+}
+.search{
+    background-color: #C5BAFF;
+    color: whitesmoke;
+}
+.fav{
+    display: flex;
+}
+.cart{
+    display: flex;
+}
+.profile{
+    display: flex;
+    gap:20px
+}
+.profile img{
+    /* border:2px solid red; */
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+}
+header button{
+    height:50px;
+    width:150px;
+    background-color: blue;
+    color: whitesmoke;
+    border:none;
+    border-radius:10px;
+}
+.options{
+    display: flex;
+    gap:40px;
+    margin:20px 60px 20px;
+}
+.options svg{
+    background-color: blue;
+    border-radius: 50%;
+}
