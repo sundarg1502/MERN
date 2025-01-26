@@ -57,3 +57,14 @@ header button{
     background-color: blue;
     border-radius: 50%;
 }
+.container{
+    display: flex;
+    margin:10px;
+    height:370px;
+    width:90%;
+    padding: 20px;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    gap:100px
+}
