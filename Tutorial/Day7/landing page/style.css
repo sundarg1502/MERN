@@ -1,0 +1,96 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color: #F8FAFC;
+    height: 100vh;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+header{
+    display: flex;
+    margin:10px;
+    height: 50px;
+    width:93%;
+    background-color: white;
+    border-radius :25px;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+    padding:20px
+}
+header img{
+    height: 50px;
+}
+.search{
+    background-color: #C5BAFF;
+    color: whitesmoke;
+}
+.fav{
+    display: flex;
+}
+.cart{
+    display: flex;
+}
+.profile{
+    display: flex;
+    gap:20px
+}
+.profile img{
+    /* border:2px solid red; */
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+}
+button{
+    height:50px;
+    width:150px;
+    background-color: blue;
+    color: whitesmoke;
+    border:none;
+    border-radius:10px;
+}
+.options{
+    display: flex;
+    gap:40px;
+    margin:20px 60px 20px;
+}
+.options svg{
+    background-color: blue;
+    border-radius: 50%;
+}
+.container{
+    display: flex;
+    margin:10px;
+    height:370px;
+    width:90%;
+    padding: 20px;
+    /* background-color: red; */
+    justify-content: center;
+    align-items: center;
+    gap:100px
+}
+.content{
+    line-height:35px;
+}
+.stars{
+    display: flex;
+    justify-content: start;
+    gap:20px
+}
+.stars h1{
+    font-size: 20px;
+}
+/* .stars svg{
+    size:200px
+} */
+.stars h6{
+    margin:10px;
+}
+.buutons{
+    display: flex;
+    gap:20px;
+    margin-top:20px
+}

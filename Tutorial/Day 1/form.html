@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="box">
+        <h1>Registration Form</h1>
+        <form action="/submit" method="post">
+            <table>
+                <!-- <tr>
+            <th>Field</th>
+            <th>Inputs</th>
+            </tr> -->
+                <tr>
+                    <td><label for="name">Name</label></td>
+                    <td><input type="text" id="name" placeholder="Enter you name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="rollnumber">Roll Number</label></td>
+                    <td><input type="text" placeholder="Enter your Roll Number"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email </label></td>
+                    <td><input type="email" id="email" placeholder="Enter Your Mail Id"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password</label></td>
+                    <td> <input type="password" placeholder="create a password" name="password"></td>
+                    <!-- <td colspan="1"><input type="submit" >su</td> -->
+                    <!-- <td>submit</td> -->
+                </tr>
+                <tr>
+                    <td>DOB</td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender</label></td>
+                    <td>
+                        <label><input type="radio" name="gender" value="male">Male</label>
+                        <label><input type="radio" name="gender" value="female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="position">Position</label></td>
+                    <td>
+                        <select id="position">
+                            <option value="student">student</option>
+                            <option value="Employe">Employe</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>

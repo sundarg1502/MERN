@@ -1,0 +1,26 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background:linear-gradient(0deg, rgb(241, 255, 249), rgba(241, 255, 249, 0) 30%), radial-gradient(circle at 0px 0px, rgb(95, 213, 182) 0px, rgba(95, 213, 182, 0) 30%), linear-gradient(rgba(121, 223, 255, 0.7) -10%, rgba(121, 223, 255, 0) 70%), radial-gradient(circle at 95% 0px, rgb(208, 242, 36) 0px, rgba(95, 213, 182, 0) 20%);
+    height: 1000px;
+    line-height: 2;
+}
+header{
+    display: flex;
+}
+header img{
+    height:50px;
+    width:50px;
+    margin-left: 500px;
+}
+header h1{
+    margin-top:10px ;
+}
+.input input{
+    background-color: white;
+    height:50px;
+    width:300px;
+    border-radius: 25px;
+}

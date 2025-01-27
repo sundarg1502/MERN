@@ -1,0 +1,25 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.parent{
+    height: 100vh;
+    width:97%;
+    background-color: darkgray;
+    margin:10px;
+    display: grid;
+    /* flex-direction: ; */
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+.child{
+    height:100px;
+    width:100px;
+    background-color: blueviolet;
+    margin:10px;
+}
+.c1,
+.c2{
+    flex-grow: 2;
+}

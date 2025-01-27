@@ -1,0 +1,45 @@
+a{
+    text-decoration:none;
+    text-transform:capitalize;
+    color: red;
+}
+a:hover{
+    color: blueviolet;
+    text-decoration:underline;
+}
+a:visited{
+    color:black;
+}
+a:link{
+    color:red
+}
+button{
+    margin:10px;
+    /* padding:10px; */
+    height:30px;
+    width:100px;
+    border:none;
+    border-radius:25px ;
+    background-color: azure;
+    cursor:pointer
+}
+button:hover{
+    background-color: black;
+    color:white;
+    transform: translateY(-8px);
+}
+ul:nth-child(even){
+    color:red
+}
+/* .parent{
+    
+} */
+.child:nth-child(){
+    color:red
+}
+.child:nth-child(even){
+    color:blue
+}
+.child:first-child{
+    color:purple
+}

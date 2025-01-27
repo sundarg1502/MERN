@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding:0;
+    background-color: beige;
+}
+
+.box{
+    /* text-align: center; */
+    height:500px;
+    width:500px;
+    background-color:darkgreen ;
+    /* margin-left:50vh; */
+    padding: 10px;
+    font-size: 30px;
+}
