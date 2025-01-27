@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    gap:220px
+}
+.square{
+    height:100px;
+    width:100px;
+    background-color: red;
+    /* transition-duration: 2s;
+    transition-timing-function:ease-in-out;
+    transition-property: background-color,height;
+    transition-delay:2s; */
+    /* transition:transform 2s 1s cubic-bezier(0.92,-0.35, 0, 1.18) */
+}
+.square:hover{
+    /* height:200px;
+    width:200px; */
+    /* background-color: blue; */
+    transform: translateY(-100px);
+    /* transform: rotate(10deg); */
+}
+.s2{
+    height:100px;
+    width:100px;
+    background-color: red;
+    margin-top:200px;
+    transition: all .1s ease-in-out;
+}
+.s2:hover{
+    height: 150px;
+    width:150px;
+    border-radius:50%;
+    background-color: magenta;
+    transform: translateY(100px) rotate(90deg);
+}
+
+.box{
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    /* animation-name: bounce;
+    animation-duration: ;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; */
+    animation: bounce .1s linear infinite;
+}
+@keyframes bounce{
+    25%{
+        margin:100px;
+    }
+
+    50%{
+        transform: scale(2);
+    }
+    75%{
+        background-color: blueviolet;
+    }
+}
