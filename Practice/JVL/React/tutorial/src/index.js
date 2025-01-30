@@ -4,23 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-function Car(){
-  return <h2> Car Component form index.js</h2>
-}
-function Garage(){
-  return (
-    <>
-      <h1>Garage function with Car Component</h1>
-      <Car/>
-    </>
-  )
-}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <Garage/>
   </React.StrictMode>
 );
 

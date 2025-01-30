@@ -1,8 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import Parent from "./components/parent"
+import Car from './components/cars';
 
 function App() {
+  const carObj = {name:"Audi",color:"Red"}
   return (
     <div className="App">
       <header className="App-header">
@@ -18,8 +19,8 @@ function App() {
         >
           Learn React
         </a>
+        <Car carObj={carObj} />
       </header>
-      <Parent/>
     </div>
   );
 }

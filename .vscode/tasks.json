@@ -1,0 +1,20 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "npm install react-scripts",
+			"command": "npm",
+			"args": [
+				"install",
+				"react-scripts"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}/Practice/JVL/React/tutorial"
+			},
+			"presentation": {
+				"reveal": "silent"
+			}
+		}
+	]
+}
