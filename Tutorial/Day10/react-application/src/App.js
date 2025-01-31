@@ -1,16 +1,17 @@
 // import logo from './logo.svg';
 import './App.css';
+import HttpRequestExample from './components/HttpRequest';
 // import Cars from './components/car';
 // import React,{useState} from 'react';
-import {MyProvider,useMyContext} from './components/UseContext';
+// import {MyProvider,useMyContext} from './components/UseContext';
 // import FormHandling from "./components/form"
 // import Mouse from './components/mouseTracker';
 // import USeRefExample from './components/useRef';
 
-const DisplayMessage = ()=>{
-  const message = useMyContext();
-  return <h1>{message}</h1>
-};
+// const DisplayMessage = ()=>{
+//   const message = useMyContext();
+//   return <h1>{message}</h1>
+// };
 
 function App() {
   return (
@@ -38,16 +39,16 @@ function App() {
         </div> */}
 
         {/* <USeRefExample/> */}
-  <div>
+  {/* <div>
     Sample Code
-  </div>
+  </div> */}
         {/* <Cars/> */}
-        <MyProvider>
+        {/* <MyProvider>
           <div>
             <DisplayMessage />
           </div>
-        </MyProvider>
-        
+        </MyProvider> */}
+        <HttpRequestExample/>
     </div>
   );
 }

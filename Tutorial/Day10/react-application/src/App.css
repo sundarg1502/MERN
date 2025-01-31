@@ -40,13 +40,13 @@
   height:100vh;
   width:100%
  }
-.App{
-  display: flex;
+/* .App{ */
+  /* display: flex;
   justify-content: center;
-  flex-direction: column;
-  padding:25%;
-  gap:20px
-}
+  flex-direction: column; */
+  /* padding:25%;
+  gap:20px */
+/* } */
 
 .form{
   height:500px;
@@ -99,4 +99,37 @@ input{
 input:hover{
   border:none;
 
+}
+.http-content{
+  margin:20px;
+  padding:10px;
+  background: linear-gradient(#EEE8AA,#DCDCDC,#F0FFFF,#E6E6FA); 
+  height:75vh;
+  width:95% ;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 25px;
+}
+.load{
+  background-color: red;
+}
+table{
+  height:600px;
+  /* background: linear-gradient(#EEE8AA,#DCDCDC,#F0FFFF,#E6E6FA);  */
+  /* border:2px solid red; */
+  /* border-radius: 25px; */
+}
+thead th{
+  /* border:2px solid red; */
+  font-size:20px;
+  color:darkolivegreen;
+  background-color: #F0FFFF;
+}
+tr:nth-child(odd){
+  background-color:#C0C0C0;
+}
+body tr:nth-child(even){
+  background-color:#DCDCDC;
 }
