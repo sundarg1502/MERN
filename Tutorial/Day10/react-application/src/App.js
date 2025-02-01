@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
-import HttpRequestExample from './components/HttpRequest';
+import Counter from './components/counter';
+// import HttpRequestExample from './components/HttpRequest';
 // import Cars from './components/car';
 // import React,{useState} from 'react';
 // import {MyProvider,useMyContext} from './components/UseContext';
@@ -8,26 +9,31 @@ import HttpRequestExample from './components/HttpRequest';
 // import Mouse from './components/mouseTracker';
 // import USeRefExample from './components/useRef';
 
+// import UseMemoExample from './components/momoization';
+// import PortalExampl from './components/portal';
+import { useState } from 'react';
+// import Counter from './components/counter';
 // const DisplayMessage = ()=>{
 //   const message = useMyContext();
 //   return <h1>{message}</h1>
 // };
 
 function App() {
+  const [showModel,setShowModle] = useState(true)
   return (
     <div className="App">
       {/* <header className="App-header"im> */}
         {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+        Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+        className="App-link"
+        href="https://reactjs.org"
+        target="_blank"
+        rel="noopener noreferrer"
         >
-          Learn React
+        Learn React
         </a> */}
       {/* </header> */}
 
@@ -35,20 +41,28 @@ function App() {
         {/* <div>
           <Mouse render={((position)=>(
             <p>Mouse Position : {position.x},{position.y}</p>
-  ))}/>
-        </div> */}
+            ))}/>
+            </div> */}
 
         {/* <USeRefExample/> */}
   {/* <div>
     Sample Code
-  </div> */}
+    </div> */}
         {/* <Cars/> */}
         {/* <MyProvider>
           <div>
-            <DisplayMessage />
+          <DisplayMessage />
           </div>
-        </MyProvider> */}
-        <HttpRequestExample/>
+          </MyProvider> */}
+        {/* <HttpRequestExample/> */}
+          {/* <UseMemoExample/> */}
+          {/* <div>
+            <h1>React Portal Example</h1>
+            <button onClick={()=>setShowModle(true)}>Open Portal</button>
+            {showModel && <PortalExampl message="Portal Opened" onClose={()=>setShowModle(false)} />}
+          </div>        */}
+
+          <Counter/>
     </div>
   );
 }
