@@ -56,11 +56,20 @@
 
 // ======================== State in React ==================================
 import FavouriteColor from "./components/favColor";
-
+// import FormHandling from "./components/form";
+import {BrowserRouter, Routes, Route} from "react"
+import FormHandling from "./components/form";
 function App() {
     return (
       <div className="App">
-        <FavouriteColor/>
+        {/* <FavouriteColor/> */}
+        {/* <FormHandling/> */}
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={ <FormHandling/>} />
+            <Route path="/fav" element={<FavouriteColor/>}/>
+          </Routes>
+        </BrowserRouter>
       </div>
     );
   }
