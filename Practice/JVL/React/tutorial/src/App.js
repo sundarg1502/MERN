@@ -63,6 +63,12 @@ import GuessTheNumber from "./components/Guess";
 // import FormHandling from "./components/form";
 // import FormHandling from "./components/form";
 import { BrowserRouter,Routes,Route,Link } from "react-router-dom"
+import User from "./components/router/User";
+import NewBooks from "./components/router/newbooks";
+import OldBooks from "./components/router/oldbooks";
+import Cat1Books from "./components/router/cat1Book";
+import Login from "./components/router/login";
+import DashBoard from "./components/router/dashboard";
 
 
 function App() {
@@ -75,10 +81,26 @@ function App() {
             <ul>
               <li><Link to="/">Guess The Number</Link></li>
               <li><Link to="/counter">Counter</Link></li>
+              <li><Link to="/user/1">User Page 1</Link></li>
+              <li><Link to="/user/2">User Page 2</Link></li>
+              <li><Link to="/books/new-books">New Books</Link></li>
+              <li><Link to="/books/old-books">Old Books</Link></li>
+              <li><Link to="/books/new-books/cat1">New Book(Category 1)</Link></li>
+              <li><Link to="login">Login</Link></li>
             </ul>
           <Routes>
             <Route path="/" element={<GuessTheNumber/>}/>
             <Route path="/counter" element={<Counter/>}/>
+            <Route path="/user/:id" element={<User />}/>
+            <Route path="/books">
+              <Route  path="new-books" element={<NewBooks/>}/>
+              <Route  path="new-books">
+                <Route path="cat1" element={<Cat1Books/>}/>
+              </Route>
+              <Route  path="old-books" element={<OldBooks/>}/>
+            </Route>
+            <Route path="/Login" element={<Login/>}/>
+            <Route path="/dashboard" element={<DashBoard/>}/>
           </Routes>
         </BrowserRouter> 
         {/* <GuessTheNumber/>  */}

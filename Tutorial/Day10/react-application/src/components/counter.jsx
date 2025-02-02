@@ -7,7 +7,7 @@ function Counter(){
         ()=>{
             setTimeout(
                 ()=>{
-                    setApp((previousState)=>{return previousState.ss+1})
+                    setCount((previousState)=>{return count+1})
                 },1000
             )
         },[count]
