@@ -5,6 +5,10 @@
 // import Header from "./components/header"
 // import ModuleStyling from './components/module';
 
+// import { BrowserRouter, Route } from "react-router-dom";
+import Counter from "./components/counter";
+import GuessTheNumber from "./components/Guess";
+
 // ================== Basic in Reac ===================================
 
 // function App() {
@@ -55,21 +59,30 @@
 
 
 // ======================== State in React ==================================
-import FavouriteColor from "./components/favColor";
+// import FavouriteColor from "./components/favColor";
 // import FormHandling from "./components/form";
-import {BrowserRouter, Routes, Route} from "react"
-import FormHandling from "./components/form";
+// import FormHandling from "./components/form";
+import { BrowserRouter,Routes,Route,Link } from "react-router-dom"
+
+
 function App() {
     return (
       <div className="App">
-        {/* <FavouriteColor/> */}
+        {/* <FavouriteColor/> */}  
         {/* <FormHandling/> */}
-        <BrowserRouter>
+        {/* <GuessTheNumber/> */}
+         <BrowserRouter>
+            <ul>
+              <li><Link to="/">Guess The Number</Link></li>
+              <li><Link to="/counter">Counter</Link></li>
+            </ul>
           <Routes>
-            <Route path="/" element={ <FormHandling/>} />
-            <Route path="/fav" element={<FavouriteColor/>}/>
+            <Route path="/" element={<GuessTheNumber/>}/>
+            <Route path="/counter" element={<Counter/>}/>
           </Routes>
-        </BrowserRouter>
+        </BrowserRouter> 
+        {/* <GuessTheNumber/>  */}
+        {/* <Counter/> */}
       </div>
     );
   }

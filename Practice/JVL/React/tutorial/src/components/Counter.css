@@ -1,0 +1,43 @@
+.counter-container{
+    background-color: #F0FFF0;
+    margin:100px;
+    padding:20px 90px 30px;
+    border-radius:25px;
+    box-shadow: 15px 10px 50px #BC8F8F;
+}
+.count{
+    display: flex;
+    width:100px;
+    height:100px;
+    background-color: red;
+    border-radius: 50%;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    animation: color-change 60s ease infinite;
+    /* transition: all .2s ease; */
+}
+
+@keyframes color-change{
+    16%{
+        background-color: green;
+        /* rotate:45deg  */
+    }
+    32%{
+        background-color: purple;
+    }
+    48%{
+        background-color:black;
+    }
+    64%{
+        background-color:turquoise;
+    }
+    80%{
+        background-color:brown;
+    }
+    96%{
+        background-color:brown;
+    }
+}
+
