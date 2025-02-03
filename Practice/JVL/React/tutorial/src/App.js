@@ -69,6 +69,7 @@ import OldBooks from "./components/router/oldbooks";
 import Cat1Books from "./components/router/cat1Book";
 import Login from "./components/router/login";
 import DashBoard from "./components/router/dashboard";
+import UserData from "./components/CRUD/httpData";
 
 
 function App() {
@@ -105,6 +106,7 @@ function App() {
         </BrowserRouter> 
         {/* <GuessTheNumber/>  */}
         {/* <Counter/> */}
+        <UserData/>
       </div>
     );
   }
