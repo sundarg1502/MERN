@@ -1,4 +1,3 @@
-import React from 'react'
 import banner from "/src/assets/Home-banner-image.png"
 
 export const Home = () => {

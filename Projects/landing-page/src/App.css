@@ -27,7 +27,7 @@ body{
     /* width:500px; */
     align-items: center;
 }
-.nav-links ul{
+.nav-list{
     /* background-color: red; */
     background: transparent;
     width: 400px;
@@ -45,13 +45,63 @@ body{
     margin-left: 10px;
     background-color: azure;
 }
+.vertical{
+    display: none;
+    position:absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height:100vh;
+    background-color: #FFEFD5;
+    border-radius: 25px;
+    top:0;
+    right: 0;
+    gap:30px;
+    width:200px;
+    flex-wrap: wrap;
+    z-index: 1;
+    animation: open 0.5s ease-in-out ;
+}
+@keyframes open{
+    0%{
+        transform: translateX(200px);
+    }
+    /* 25%{
+        transform: translateX(50px);
+    }
+    50%{
+        transform: translateX(75px);
+    }
+    75%{
+        transform: translateX(75px);
+    } */
+}
+.list-vertical{
+    flex-direction: column;
+    gap:30px;
+    margin:30px
+}
+.none{
+    display: none;
+}
+@media (max-width:600px){
+    .header{
+        font-size: 20px
+    }
+    .horizontal{
+        display: none;
+    }
+    .vertical{
+        width:100%
+    }
+}
 
 .home{
     height: 600px;
     background:url(assets/home-banner-background.png) ;
     background-repeat: no-repeat;
     background-position-x: right;
-    background-size:800px 600px;
+    background-size:900px 700px;
     display: flex;
     padding:50px;
 }
@@ -84,7 +134,7 @@ body{
 .image img{
     height:500px;
     padding: 20px;
-    margin:-60px
+    margin:150px
 }
 .order-now{
     height:40px;
@@ -93,6 +143,58 @@ body{
     border:none;
     background-color: #fe9e0d;
     color: #f6f6f6;
+}
+@media (max-width:600px){
+    .home{
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        background-size: contain;
+        width:100%;
+    }
+    .content{
+        padding:0;
+        margin-top:30px;
+        /* background-color: red; */
+        align-items: flex-start;
+        padding:20px
+    }
+    .content h2{
+        font-size: 30px;
+    }
+    .content p{
+        font-size: 15px;
+    }
+    .image img{
+        height:200px;
+    }
+}
+@media (max-width:992px){
+        .home{
+            /* background-color: red; */
+            /* display: flex;
+            flex-direction: column;
+            background-size: contain; */
+            /* width:100%; */
+            background-size:400px 600px;
+            /* background-color: red; */
+            margin-top:-100px
+        }
+        .content{
+            padding:0;
+            align-items: flex-start;
+            padding:20px
+        }
+        .content h2{
+            font-size: 30px;
+        }
+        .content p{
+            font-size: 15px;
+        }
+        .image img{
+            height:350px;
+        }
+    
 }
 
 .about{
@@ -159,3 +261,4 @@ body{
     background-color: #4c4c4c;
     border:none
 }
+
