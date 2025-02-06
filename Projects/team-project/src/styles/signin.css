@@ -1,0 +1,16 @@
+
+.signin{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    flex-direction: column;
+    /* background: linear-gradient(#F0FFF0,#FFF0F5,#F5FFFA,#FFFACD); */
+    background-color: #F0FFF0;
+    height:400px;
+    width:500px;
+    border-radius: 25px;
+    top:25%;
+    left:30%;
+    box-shadow: 10px 10px 15px #B0C4DE;
+}
