@@ -9,15 +9,21 @@
 .farmer img{
     height: 100%;
     width: 100%;
+    border-radius: 30px;
 }
 .farmer-div{
     position: absolute;
-    height: 280px;
+    height: 230px;
     width:300px;
     background-color: white;
     bottom:-25px;
     right:120px;
     border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:20px
 }
 .farmer-div::before{
     content:"";
@@ -25,7 +31,41 @@
     width: 50px;
     position: absolute;
     z-index: 1001;
-    background-color: red;
-    bottom: 23px;
-
+    /* background-color: red; */
+    bottom: 25px;
+    left:-50px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 13px 10px white;
+}
+.farmer-div::after{
+    content:"";
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    z-index: 1001;
+    /* background-color: red; */
+    bottom: 25px;
+    right:-50px;
+    border-bottom-left-radius: 30px;
+    box-shadow: -15px 9px white;
+}
+.farmer-div span{
+    color: #0d6efd;
+    font-size: 20px;
+}
+.farmer-div h3{
+    color: lightgray;
+    font-size:30px;
+}
+.farmer-div button{
+    border:none;
+    height:40px;
+    width:150px;
+    border-radius: 25px;
+    color:  rgb(61 71 80);
+    transition: all 0.3s linear;
+}
+.farmer-div button:hover{
+    background-color: #6c7fd8;
+    color:white;
 }

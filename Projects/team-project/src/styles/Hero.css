@@ -72,6 +72,7 @@
     height: 35%;
     width: auto;
     background-color: white;
+    border-radius: 30px;
     margin-left: -150px;
     z-index: 1001;
     border:20px solid white;

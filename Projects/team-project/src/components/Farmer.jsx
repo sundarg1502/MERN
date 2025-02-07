@@ -5,7 +5,11 @@ const Farmer = () => {
   return (
     <div className='farmer'>
         <img src={banner} alt="" />
-        <div className="farmer-div"></div>
+        <div className="farmer-div">
+          <span>25% Off</span>
+          <h3>Fresh Vegetables</h3>
+          <button>Shop Now</button>
+        </div>
     </div>
   )
 }
