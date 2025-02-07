@@ -1,0 +1,31 @@
+.farmer{
+    height: 60vh;
+    width: 92vw;
+    background-color: red;
+    margin:40px;
+    border-radius: 30px;
+    position: relative;
+}
+.farmer img{
+    height: 100%;
+    width: 100%;
+}
+.farmer-div{
+    position: absolute;
+    height: 280px;
+    width:300px;
+    background-color: white;
+    bottom:-25px;
+    right:120px;
+    border-radius: 50px;
+}
+.farmer-div::before{
+    content:"";
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    z-index: 1001;
+    background-color: red;
+    bottom: 23px;
+
+}
