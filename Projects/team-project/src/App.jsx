@@ -1,5 +1,6 @@
 // import { Route, Routes } from 'react-router-dom'
 import './App.css'
+import Deals from './components/Deals'
 import Farmer from './components/Farmer'
 import Hero from './components/Hero'
 import Home from './components/Home'
@@ -40,6 +41,7 @@ function App() {
       <NavBar/>
       <Home/>
       <Hero data={category}/>
+      <Deals/>
       <Farmer/>
     </>
   )
