@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": "db65",
+      "userName": "wesdfsd",
+      "name": "dfsda",
+      "email": "22ad058@psr.edu.in",
+      "passWord": "dsfsd",
+      "confirmpass": "dfsdf"
+    },
+    {
+      "id": "f93c",
+      "userName": "wesdfsd",
+      "name": "dfsda",
+      "email": "22ad058@psr.edu.in",
+      "passWord": "dsfs",
+      "confirmpass": "dfsdf"
+    },
+    {
+      "id": "ecc9",
+      "userName": "wesdfsd",
+      "name": "dfsda",
+      "email": "22ad058@psr.edu.in",
+      "passWord": "ds",
+      "confirmpass": "dfsdf"
+    },
+    {
+      "id": "4723",
+      "userName": "rewer",
+      "name": "weqr",
+      "email": "wewer",
+      "passWord": "wer",
+      "confirmpass": "reer"
+    },
+    {
+      "id": "c882",
+      "userName": "rewer",
+      "name": "weqr",
+      "email": "wewer",
+      "passWord": "wer",
+      "confirmpass": "reer"
+    },
+    {
+      "id": "4781",
+      "userName": "rewer",
+      "name": "weqr",
+      "email": "wewer",
+      "passWord": "wer",
+      "confirmpass": "reergnmgh"
+    }
+  ]
+}

@@ -1,4 +1,6 @@
-
+/* body{ */
+    /* background-color: #0dcaf0; */
+/* } */
 .signup{
     display: flex;
     align-items: center;
@@ -7,7 +9,7 @@
     flex-direction: column;
     /* background: linear-gradient(#F0FFF0,#FFF0F5,#F5FFFA,#FFFACD); */
     background-color: #F0FFF0;
-    height:400px;
+    height:600px;
     width:500px;
     border-radius: 25px;
     top:25%;
@@ -26,4 +28,10 @@
     height: 40px;
     width:200px;
     border-radius: 25px;
+}
+.error{
+    /* background-color:; */
+    padding: 10px;
+    border-radius: 30px;
+    color: #dc3545;
 }

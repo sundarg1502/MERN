@@ -1,12 +1,12 @@
-// import { Route, Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import Deals from './components/Deals'
 import Farmer from './components/Farmer'
 import Hero from './components/Hero'
 import Home from './components/Home'
 import NavBar from './components/NavBar'
-// import SignUp from './components/signup'
-// import Signin from "./components/signin"
+import SignUp from './components/signup'
+import Signin from "./components/signin"
 
 function App() {
   const category = [
@@ -35,10 +35,11 @@ function App() {
   return (
     <>
       {/* <Routes>
-        <Route path="/" element={<SignUp/>}/>
+        <Route path='/' element={<Home/>}/>
+        <Route path="/signup" element={<SignUp/>}/>
         <Route path="/signin" element={<Signin/>}/>
       </Routes> */}
-      <NavBar/>
+      {/* <NavBar/> */}
       <Home/>
       <Hero data={category}/>
       <Deals/>
