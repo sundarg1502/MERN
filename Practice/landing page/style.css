@@ -63,8 +63,11 @@ header button{
     height:370px;
     width:90%;
     padding: 20px;
-    background-color: red;
+    /* background-color: red; */
     justify-content: center;
     align-items: center;
     gap:100px
+}
+.profile-img{
+    mix-blend-mode:multiply;
 }
