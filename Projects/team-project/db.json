@@ -1,52 +1,50 @@
 {
   "users": [
     {
-      "id": "db65",
-      "userName": "wesdfsd",
-      "name": "dfsda",
+      "id": "cf01",
+      "userName": "Sundar",
+      "name": "22ad058",
       "email": "22ad058@psr.edu.in",
-      "passWord": "dsfsd",
-      "confirmpass": "dfsdf"
+      "passWord": "asdf",
+      "confirmpass": "asdf"
+    }
+  ],
+  "Company":[
+    {
+      "name":"Mira Fashion Pvt. Ltd.",
+      "Items":{
+        "fruits":5,
+        "Veg":30,
+        "Snacks":9
+      },
+      "Sale Amount":578
     },
     {
-      "id": "f93c",
-      "userName": "wesdfsd",
-      "name": "dfsda",
-      "email": "22ad058@psr.edu.in",
-      "passWord": "dsfs",
-      "confirmpass": "dfsdf"
+      "name":"Elna Fashion Pvt. Ltd.",
+      "Items":{
+        "fruits":5,
+        "Veg":30,
+        "Snacks":9
+      },
+      "Sale Amount":578
     },
     {
-      "id": "ecc9",
-      "userName": "wesdfsd",
-      "name": "dfsda",
-      "email": "22ad058@psr.edu.in",
-      "passWord": "ds",
-      "confirmpass": "dfsdf"
+      "name":"Mario Fashion Pvt. Ltd.",
+      "Items":{
+        "fruits":5,
+        "Veg":30,
+        "Snacks":9
+      },
+      "Sale Amount":578
     },
     {
-      "id": "4723",
-      "userName": "rewer",
-      "name": "weqr",
-      "email": "wewer",
-      "passWord": "wer",
-      "confirmpass": "reer"
-    },
-    {
-      "id": "c882",
-      "userName": "rewer",
-      "name": "weqr",
-      "email": "wewer",
-      "passWord": "wer",
-      "confirmpass": "reer"
-    },
-    {
-      "id": "4781",
-      "userName": "rewer",
-      "name": "weqr",
-      "email": "wewer",
-      "passWord": "wer",
-      "confirmpass": "reergnmgh"
+      "name":"Mario Fashion Pvt. Ltd.",
+      "Items":{
+        "fruits":5,
+        "Veg":30,
+        "Snacks":9
+      },
+      "Sale Amount":578
     }
   ]
 }

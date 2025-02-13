@@ -1,7 +1,32 @@
 import NavBar from "./NavBar"
+import Hero from "./Hero"
 import homeImage from "/src/assets/hero.png"
 import "/src/styles/Home.css"
+import Vendors from "./Vendors"
 const Home = () => {
+  const category = [
+    {
+      id:1,
+      name:"Cool Drinks",
+      quantity:"200",
+      img:"ct1"
+    },{
+      id:2,
+      name:"Bakery",
+      quantity:"100",
+      img:"ct2"
+    },{
+      id:3,
+      name:"Vegetables",
+      quantity:"400",
+      img:"ct3"
+    },{
+      id:4,
+      name:"Fruits",
+      quantity:"20",
+      img:"ct4"
+    },
+  ]
   return (
     <>
     <NavBar/>
@@ -15,6 +40,8 @@ const Home = () => {
           <img src={homeImage} alt="" />
         </div>
       </div>
+      <Hero data={category}/>
+      <Vendors/>
     </>
   )
 }

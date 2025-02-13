@@ -1,6 +1,6 @@
 import { useState } from "react"
 import "/src/styles/signup.css"
-// import { useNavigate } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 import axios from "axios"
 
 const SignUp = () => {
@@ -20,22 +20,18 @@ const SignUp = () => {
     const [valid, setVAlid] = useState("")
     const [error, setErrors] = useState({})
 
-    // const navigate = useNavigate()
+    const navigate = useNavigate()
 
     const updateData = (event)=>{
         var fieldName = event.target.name
         var fieldValue = event.target.value
-        console.log(fieldName,fieldValue)
         setInputs((previousState)=>{
           return {...previousState,[fieldName]:fieldValue}
         })
-        // console.log(fieldName,fieldValue)
-        // console.log(inputs)
     }
 
     const handleSignUp = (e)=>{
         e.preventDefault();
-        // console.log(inputs.userName,inputs.name,inputs.email,inputs.passWord,inputs.confirmpass)
         var isValid = true
         const validationError = {}
         if (inputs.userName===""){
@@ -55,25 +51,31 @@ const SignUp = () => {
           validationError.passWord = "Enter a password"
         }
         if(inputs.passWord<6){
+          isValid = false
           validationError.passWord = "PassWord Needs to be greater than 6 Charectors"
         }
         if (inputs.confirmpass===""){
           isValid = false
           validationError.confirmpass = "Enter a Confirm PAssword"
         }
-        if(inputs.passWord===inputs.confirmpass){
+        if(inputs.passWord!==inputs.confirmpass){
+          isValid = false
           validationError.confirmpass = "Password and confirmation passwords needs to be same"
         }
         setVAlid(isValid)
         setErrors(validationError)
-        console.log("errors",valid,error)
-        console.log(inputs)
-        // alert("Sign Up successfull")
         // navigate("/signin")
         if(Object.keys(validationError).length===0){
           axios.post("http://localhost:8000/users",inputs)
-          .then(result=>console.log(result))
-          .catch(err=>console.log(err))
+          .then(navigate("/"))
+          .catch(err=>
+            {
+              isValid=false
+              validationError.ConnectionError=err.message
+              setVAlid(isValid)
+              setErrors(validationError)
+              console.log("Error from api ",err.message)
+            })
         }
     }
 

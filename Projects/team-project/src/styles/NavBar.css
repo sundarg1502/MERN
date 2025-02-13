@@ -46,6 +46,9 @@ span{
     justify-content: center;
     align-items: center;
 }
+.path-links{
+    text-decoration: none;
+}
 @media (max-width:768px){
     .nav-bar{
         flex-direction: column;

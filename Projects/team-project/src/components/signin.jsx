@@ -1,20 +1,21 @@
 import { useState } from "react";
 import "/src/styles/signin.css"
+import axios from "axios"
 
 const Signin = () => {
-  const username = localStorage.getItem("username")
-  const password = localStorage.getItem("password")
   const [name, setName] = useState("")
   const [pass, setPass] = useState("")
-  const handleSignIn = (e)=>{
-    e.preventDefault();
-    if(name==username && password==pass){
-      alert("Login Sccuessfull")
-    }
-    else{
-      alert("USername PAss word Mismatched")
-    }
-  }                                              
+
+  // const valid 
+
+  // const handleSignIn = (e)=>{
+  //   e.preventDefault();
+  //   if(name==="" || name==Nan){
+
+  //   }
+  // }                    
+  // axios.get("http://localhost:8000/users")      
+  // .then(Response=>console.log(Response))                    
   return (
     <div className="signin">
       <h1>Sign In Form</h1>
