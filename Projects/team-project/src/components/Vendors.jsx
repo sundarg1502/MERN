@@ -14,15 +14,17 @@ const Vendors = () => {
                 // console.log(response)
                 setVendors(response.data)
                 setFetch(true)
-                
             })
+            .catch(error=>console.log(error))
         },[]
     )
     if(fetch){
         vendors.forEach(vendor=>{
-            console.log("dfata from effect",vendor.name,fetch)
+            // console.log(typeof(vendor))
+            // console.log("dfata from effect",vendor.name,vendor.id)
         })
     }
+    console.log(typeof(vendors))
   return (
     <div className="vendor">
       <div className="vendor-header">
@@ -37,10 +39,18 @@ const Vendors = () => {
         <div className="vendor-details">
             {
                 fetch 
-                &&  
-                vendors.forEach(vendor=>{
-                    <h1>{vendor.name}</h1>
-                })
+                ? 
+                <span>
+                    Adat
+                    {
+                    vendors.forEach(vendor=>{
+                        {vendor}
+                    })}
+                    {Object.values(vendors)}
+                    adta
+                </span>
+                :<></>
+            
             }
             {/* <div className="vendor-detail">
                 <div className="name-items">

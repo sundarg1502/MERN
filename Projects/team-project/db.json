@@ -7,44 +7,56 @@
       "email": "22ad058@psr.edu.in",
       "passWord": "asdf",
       "confirmpass": "asdf"
+    },
+    {
+      "id": "f305",
+      "userName": "sundar",
+      "name": "free fire",
+      "email": "sundarg1502@gmail.com",
+      "passWord": "asdfghj",
+      "confirmpass": "asdfghj"
     }
   ],
-  "Company":[
+  "Company": [
     {
-      "name":"Mira Fashion Pvt. Ltd.",
-      "Items":{
-        "fruits":5,
-        "Veg":30,
-        "Snacks":9
+      "name": "Mira Fashion Pvt. Ltd.",
+      "Items": {
+        "fruits": 5,
+        "Veg": 30,
+        "Snacks": 9
       },
-      "Sale Amount":578
+      "Sale Amount": 578,
+      "id": "4798"
     },
     {
-      "name":"Elna Fashion Pvt. Ltd.",
-      "Items":{
-        "fruits":5,
-        "Veg":30,
-        "Snacks":9
+      "name": "Elna Fashion Pvt. Ltd.",
+      "Items": {
+        "fruits": 5,
+        "Veg": 30,
+        "Snacks": 9
       },
-      "Sale Amount":578
+      "Sale Amount": 578,
+      "id": "1eb2"
     },
     {
-      "name":"Mario Fashion Pvt. Ltd.",
-      "Items":{
-        "fruits":5,
-        "Veg":30,
-        "Snacks":9
+      "name": "Mario Fashion Pvt. Ltd.",
+      "Items": {
+        "fruits": 5,
+        "Veg": 30,
+        "Snacks": 9
       },
-      "Sale Amount":578
+      "Sale Amount": 578,
+      "id": "47f5"
     },
     {
-      "name":"Mario Fashion Pvt. Ltd.",
-      "Items":{
-        "fruits":5,
-        "Veg":30,
-        "Snacks":9
+      "name": "Mario Fashion Pvt. Ltd.",
+      "Items": {
+        "fruits": 5,
+        "Veg": 30,
+        "Snacks": 9
       },
-      "Sale Amount":578
+      "Sale Amount": 578,
+      "id": "8647"
     }
   ]
 }
