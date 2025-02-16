@@ -1,0 +1,14 @@
+.new-arrivals{
+    margin-left: 20px;
+    min-height:100vh ;
+    max-width:100vw;
+    background-color: red;
+}
+@media (max-width:600px){
+    .new-arrivals{
+    }
+    .product img{
+        height: 50px;
+        width: 50px;
+    }
+}

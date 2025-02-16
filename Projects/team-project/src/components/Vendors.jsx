@@ -22,6 +22,7 @@ const Vendors = () => {
         vendors.forEach(vendor=>{
             // console.log(typeof(vendor))
             // console.log("dfata from effect",vendor.name,vendor.id)
+            // setVendors(vendor)
         })
     }
     console.log(typeof(vendors))
@@ -43,10 +44,10 @@ const Vendors = () => {
                 <span>
                     Adat
                     {
-                    vendors.forEach(vendor=>{
-                        {vendor}
-                    })}
-                    {Object.values(vendors)}
+                    vendors.map(vendor=>(
+                        <h2>{vendor.name}</h2>
+                    ))}
+                    {/* {Object.values(vendors).join(" | ")} */}
                     adta
                 </span>
                 :<></>

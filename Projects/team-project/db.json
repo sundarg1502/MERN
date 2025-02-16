@@ -58,5 +58,56 @@
       "Sale Amount": 578,
       "id": "8647"
     }
+  ],
+  "Product":[
+    {
+      "name":"Ground Nuts Oil",
+      "Category":"Snacks",
+      "Old price":"$ 15",
+      "New Price":"$22",
+      "Quantity":"500g",
+      "image":""
+    },
+    {
+      "name":"Prganic Lithick Juice",
+      "Category":"Snacks",
+      "Old price":"$ 15",
+      "New Price":"$22",
+      "Quantity":"500g",
+      "image":""
+    },
+    {
+      "name":"Banan chips",
+      "Category":"Snacks",
+      "Old price":"$ 15",
+      "New Price":"$22",
+      "Quantity":"500g",
+      "image":""
+    },
+    {
+      "name":"Dragon Fruit",
+      "Category":"Snacks",
+      "Old price":"$ 15",
+      "New Price":"$22",
+      "Quantity":"500g",
+      "image":""
+    },
+    {
+      "name":"Fresh Blure Berry",
+      "Category":"Snacks",
+      "Old price":"$ 15",
+      "New Price":"$22",
+      "Quantity":"500g",
+      "image":""
+    },
+    {
+      "name":"Tomatto",
+      "Category":"Snacks",
+      "Old price":"$ 15",
+      "New Price":"$22",
+      "Quantity":"500g",
+      "image":""
+    }
+
   ]
 }
