@@ -28,13 +28,22 @@
     height: 100%;
     border-radius: 30px;
 }
-.vendor-img img:nth-child(2){
+.small-image{
     position: absolute;
     height: 80px;
     width:auto;
     right:0;
     bottom: 0;
     border-radius: 30px;
+    border: 20px solid white;
+}
+.small-image img{
+    /* position: absolute; */
+    /* height: 80px; */
+    /* width:auto; */
+    /* right:0; */
+    /* bottom: 0; */
+    /* border-radius: 30px; */
     border: 20px solid white;
 }
 .vendor-img::before{
@@ -82,5 +91,25 @@
     .vendor-img::after{
         right:0;
         bottom:210px;
-    }.
+    }
+}
+.vendor-details{
+    margin-top: 0;
+    height: 500px;
+    width:500px;
+    /* background-color: red; */
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+}
+.vendor-detail{
+    background-color: aquamarine;
+    width: 100%;
+    padding:10px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
 }

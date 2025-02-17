@@ -25,7 +25,7 @@
         "Veg": 30,
         "Snacks": 9
       },
-      "Sale Amount": 578,
+      "SaleAmount": 578,
       "id": "4798"
     },
     {
@@ -35,7 +35,7 @@
         "Veg": 30,
         "Snacks": 9
       },
-      "Sale Amount": 578,
+      "SaleAmount": 578,
       "id": "1eb2"
     },
     {
@@ -45,7 +45,7 @@
         "Veg": 30,
         "Snacks": 9
       },
-      "Sale Amount": 578,
+      "SaleAmount": 578,
       "id": "47f5"
     },
     {
@@ -55,7 +55,7 @@
         "Veg": 30,
         "Snacks": 9
       },
-      "Sale Amount": 578,
+      "SaleAmount": 578,
       "id": "8647"
     }
   ],
@@ -66,7 +66,8 @@
       "Old price":"$ 15",
       "New Price":"$22",
       "Quantity":"500g",
-      "image":""
+      "rating":"⭐⭐⭐⭐⭐",
+      "image":"https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/new-product/1.jpg"
     },
     {
       "name":"Prganic Lithick Juice",
@@ -74,7 +75,8 @@
       "Old price":"$ 15",
       "New Price":"$22",
       "Quantity":"500g",
-      "image":""
+      "rating":"⭐⭐⭐⭐⭐",
+      "image":"https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/new-product/2.jpg"
     },
     {
       "name":"Banan chips",
@@ -82,31 +84,35 @@
       "Old price":"$ 15",
       "New Price":"$22",
       "Quantity":"500g",
-      "image":""
+      "rating":"⭐⭐⭐⭐⭐",
+      "image":"https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/new-product/3.jpg"
     },
     {
       "name":"Dragon Fruit",
-      "Category":"Snacks",
+      "Category":"Fruits",
       "Old price":"$ 15",
       "New Price":"$22",
       "Quantity":"500g",
-      "image":""
+      "rating":"⭐⭐⭐⭐⭐",
+      "image":"https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/new-product/9.jpg"
     },
     {
       "name":"Fresh Blure Berry",
-      "Category":"Snacks",
+      "Category":"Fruits",
       "Old price":"$ 15",
       "New Price":"$22",
       "Quantity":"500g",
-      "image":""
+      "rating":"⭐⭐⭐⭐⭐",
+      "image":"https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/new-product/11.jpg"
     },
     {
       "name":"Tomatto",
-      "Category":"Snacks",
+      "Category":"Veg",
       "Old price":"$ 15",
       "New Price":"$22",
       "Quantity":"500g",
-      "image":""
+      "rating":"⭐⭐⭐⭐⭐",
+      "image":"https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/new-product/17.jpg"
     }
 
   ]

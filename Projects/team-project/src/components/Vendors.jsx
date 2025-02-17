@@ -18,14 +18,14 @@ const Vendors = () => {
             .catch(error=>console.log(error))
         },[]
     )
-    if(fetch){
-        vendors.forEach(vendor=>{
-            // console.log(typeof(vendor))
-            // console.log("dfata from effect",vendor.name,vendor.id)
-            // setVendors(vendor)
-        })
-    }
-    console.log(typeof(vendors))
+    // if(fetch){
+    //     vendors.forEach(vendor=>{
+    //         console.log(typeof(vendor))
+    //         console.log("dfata from effect",vendor.name,vendor.id)
+    //         setVendors(vendor)
+    //     })
+    // }
+    // console.log(typeof(vendors))
   return (
     <div className="vendor">
       <div className="vendor-header">
@@ -35,22 +35,24 @@ const Vendors = () => {
       <div className="vendor-main">
         <div className="vendor-img">
             <img src={vendor} alt="" />
-            <img src={small} alt="" />
+            <div className="small-image">
+                {/* <img src={small} alt="" /> */}
+            </div>
         </div>
         <div className="vendor-details">
             {
                 fetch 
-                ? 
-                <span>
-                    Adat
-                    {
-                    vendors.map(vendor=>(
-                        <h2>{vendor.name}</h2>
-                    ))}
-                    {/* {Object.values(vendors).join(" | ")} */}
-                    adta
-                </span>
-                :<></>
+                &&
+                vendors.map((data,index)=>(
+                        <>
+                            <div className="name-items" key={index}>
+                                <h1>{data.name}</h1>
+                                <p>Fruits {data.Items.fruits} | Veg {data.Items.fruits} | Snacks {data.Items.fruits}</p>
+                            </div>
+                            <p>{data.SaleAmount}</p>
+                        </>
+                    ))
+                
             
             }
             {/* <div className="vendor-detail">
