@@ -5,6 +5,7 @@ import "/src/styles/Home.css"
 import Vendors from "./Vendors"
 import NewArrivals from "./NewArrivals"
 import Details from "./Details"
+import TwoProducts from "./TwoProducts"
 const Home = () => {
   const category = [
     {
@@ -43,6 +44,7 @@ const Home = () => {
         </div>
       </div>
       <Hero data={category}/>
+      <TwoProducts/>
       <Vendors/>
       <NewArrivals/>
       {/* <Details/> */}

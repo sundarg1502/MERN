@@ -1,0 +1,77 @@
+
+.pic-container{
+    border: 0.1px solid;
+    width: 700px;
+    height: 340px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+     margin-left: 180px; 
+    overflow: hidden;
+    position: relative;
+    transition:  all 1.5s ease-in;
+ } 
+ .pic-container:nth-child(2){
+    background-color: lightpink;
+ }
+.pic h2{
+  
+    margin-left: 0px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.cake{ 
+
+     z-index: 101;
+}
+.cake img{
+   margin-top: -30px;
+   margin-right: 100px;
+}
+.to button{
+    margin-top: 50px;
+    border-radius:20px;
+    font-size: large;
+}
+.pic p{
+    color:lightslategrey;
+    font-size: larger;
+    
+} 
+.pic-container::before{
+    position: absolute;
+    content: "";
+    height:650px;
+    width:500px;
+    z-index: 1;
+    background-color: #ffc107;
+    transform: rotate(45deg);
+    left:-210px;
+    transition:  all 0.5s ease-in-out;
+    
+    top:-380px;
+} 
+ .pic-container::after{
+    position: absolute;
+    content: "";
+    height:650px;
+    width:500px;
+    z-index: 1;
+    background-color: #ffc107;
+    transform: rotate(45deg);
+    right:-210px;
+    transition:  all 0.5s ease-in-out;
+    bottom:-500px; 
+ }
+ .pic-container:nth-child(2)::before,
+ .pic-container:nth-child(2)::after{
+    background-color: #ffc6ce;
+ }
+.pic-container:hover:before{
+    left:-250px
+}
+.pic-container:hover:after{
+    right:-250px
+} 
