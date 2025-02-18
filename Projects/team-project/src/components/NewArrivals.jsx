@@ -41,7 +41,7 @@ const NewArrivals = () => {
                                     <img src={product.image} alt="" />
                                     <div className="options">
                                         <p>Heart</p>
-                                        <p>Eye</p>
+                                        <button>👁</button>
                                         <p>Loop</p>
                                         <p>Cart3</p>
                                     </div>

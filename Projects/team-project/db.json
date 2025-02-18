@@ -79,7 +79,7 @@
       "image":"https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/new-product/2.jpg"
     },
     {
-      "name":"Banan chips",
+      "name":"Crunchy Banana chips",
       "Category":"Snacks",
       "Old price":"$ 15",
       "New Price":"$22",
@@ -88,22 +88,121 @@
       "image":"https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/new-product/3.jpg"
     },
     {
-      "name":"Dragon Fruit",
-      "Category":"Fruits",
-      "Old price":"$ 15",
-      "New Price":"$22",
+      "name":"Crunchy Potato chips",
+      "Category":"Snacks",
+      "Old price":"$ 20",
+      "New Price":"$18",
       "Quantity":"500g",
       "rating":"⭐⭐⭐⭐⭐",
       "image":"https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/new-product/9.jpg"
     },
     {
-      "name":"Fresh Blure Berry",
-      "Category":"Fruits",
-      "Old price":"$ 15",
+      "name":"Black Pepper Spice Pack",
+      "Category":"Spices",
+      "Old price":"$ 35",
       "New Price":"$22",
-      "Quantity":"500g",
+      "Quantity":"1 Pack",
       "rating":"⭐⭐⭐⭐⭐",
       "image":"https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/new-product/11.jpg"
+    },
+    {
+      "name":"Small Cardamom Spice Pack",
+      "Category":"Spices",
+      "Old price":"$40",
+      "New Price":"$32",
+      "Quantity":"200g",
+      "rating":"⭐⭐⭐⭐⭐",
+      "image":"https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/new-product/17.jpg"
+    },
+    {
+      "name":"Chilli Flakes Pack",
+      "Category":"Spices",
+      "Old price":"$ 31",
+      "New Price":"$29",
+      "Quantity":"250g",
+      "rating":"⭐⭐⭐⭐⭐",
+      "image":"https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/new-product/17.jpg"
+    },
+    {
+      "name":"Tomatto Ketchup Pack",
+      "Category":"Veg",
+      "Old price":"$ 10",
+      "New Price":"$19",
+      "Quantity":"200ml",
+      "rating":"⭐⭐⭐⭐⭐",
+      "image":"https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/new-product/17.jpg"
+    },
+    {
+      "name":"Organic dragon fruit",
+      "Category":"Fruit",
+      "Old price":"$7",
+      "New Price":"$5",
+      "Quantity":"2Pcs",
+      "rating":"⭐⭐⭐⭐⭐",
+      "image":"https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/new-product/17.jpg"
+    },
+    {
+      "name":"Fresh blue berry",
+      "Category":"Fruit",
+      "Old price":"$ 30",
+      "New Price":"$25",
+      "Quantity":"500g",
+      "rating":"⭐⭐⭐⭐⭐",
+      "image":"https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/new-product/17.jpg"
+    },
+    {
+      "name":"Red Cherry Serbia",
+      "Category":"Fruit",
+      "Old price":"$8",
+      "New Price":"$6",
+      "Quantity":"250g",
+      "rating":"⭐⭐⭐⭐⭐",
+      "image":"https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/new-product/17.jpg"
+    },
+    {
+      "name":"Kwangtung Fresh Litch",
+      "Category":"Fruit",
+      "Old price":"$5",
+      "New Price":"$2",
+      "Quantity":"200g",
+      "rating":"⭐⭐⭐⭐⭐",
+      "image":"https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/new-product/17.jpg"
+    },
+    {
+      "name":"Fresh Orange",
+      "Category":"Fruit",
+      "Old price":"$ 15",
+      "New Price":"$10",
+      "Quantity":"12Pcs",
+      "rating":"⭐⭐⭐⭐⭐",
+      "image":"https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/new-product/17.jpg"
+    },
+    {
+      "name":"Red Guava",
+      "Category":"Fruit",
+      "Old price":"$ 17",
+      "New Price":"$15",
+      "Quantity":"2kg",
+      "rating":"⭐⭐⭐⭐⭐",
+      "image":"https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/new-product/17.jpg"
+    },
+    {
+      "name":"Organic Kesar Mango",
+      "Category":"Fruit",
+      "Old price":"$ 31",
+      "New Price":"$20kg",
+      "Quantity":"500g",
+      "rating":"⭐⭐⭐⭐⭐",
+      "image":"https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/new-product/17.jpg"
+    },
+    {
+      "name":"Organic Banana",
+      "Category":"Fruit",
+      "Old price":"$ 10",
+      "New Price":"$9",
+      "Quantity":"12Pcs",
+      "rating":"⭐⭐⭐⭐⭐",
+      "image":"https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/new-product/17.jpg"
     },
     {
       "name":"Tomatto",
@@ -113,7 +212,76 @@
       "Quantity":"500g",
       "rating":"⭐⭐⭐⭐⭐",
       "image":"https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/new-product/17.jpg"
+    },
+    {
+      "name":"Tomatto",
+      "Category":"Vegetable",
+      "Old price":"$22",
+      "New Price":"$15",
+      "Quantity":"500g",
+      "rating":"⭐⭐⭐⭐⭐",
+      "image":"https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/new-product/17.jpg"
+    },
+    {
+      "name":"Ecuador Red Potato",
+      "Category":"Vegetable",
+      "Old price":"$30",
+      "New Price":"$25",
+      "Quantity":"10kg",
+      "rating":"⭐⭐⭐⭐⭐",
+      "image":"https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/new-product/17.jpg"
+    },
+    {
+      "name":"Red Organic Onion",
+      "Category":"Vegetable",
+      "Old price":"$ 15",
+      "New Price":"$10",
+      "Quantity":"5kg",
+      "rating":"⭐⭐⭐⭐⭐",
+      "image":"https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/new-product/17.jpg"
+    },
+    {
+      "name":"Fresh Coriander",
+      "Category":"Vegetable",
+      "Old price":"$3",
+      "New Price":"$1",
+      "Quantity":"2kg",
+      "rating":"⭐⭐⭐⭐⭐",
+      "image":"https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/new-product/17.jpg"
+    },{
+      "name":"America Capcicum",
+      "Category":"Vegetable",
+      "Old price":"$5",
+      "New Price":"$4",
+      "Quantity":"500g",
+      "rating":"⭐⭐⭐⭐⭐",
+      "image":"https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/new-product/17.jpg"
+    },{
+      "name":"Mexico corn",
+      "Category":"Spices",
+      "Old price":"$ 10",
+      "New Price":"$12",
+      "Quantity":"2Pcs",
+      "rating":"⭐⭐⭐⭐⭐",
+      "image":"https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/new-product/17.jpg"
+    },{
+      "name":"Jamaica Ginger",
+      "Category":"Tuber Root",
+      "Old price":"$4",
+      "New Price":"$3",
+      "Quantity":"250g",
+      "rating":"⭐⭐⭐⭐⭐",
+      "image":"https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/new-product/17.jpg"
+    },
+    {
+      "name":"Fresh Lemon",
+      "Category":"Vegetable",
+      "Old price":"$10",
+      "New Price":"$4",
+      "Quantity":"20g",
+      "rating":"⭐⭐⭐⭐⭐",
+      "image":"https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/new-product/17.jpg"
     }
-
+    
   ]
 }
