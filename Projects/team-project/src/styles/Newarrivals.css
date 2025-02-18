@@ -68,15 +68,20 @@
 }
 .options{
     display: flex;
-    position: absolute;
+    /* position: absolute; */
     justify-content: space-around;
-    top:0;
-    height: 100%;
-    width:100%;
+    /* top:0; */
+    /* height: 100%;
+    width:100%; */
     /* background-color: red; */
     align-items: end;
+    opacity: 0;
+    transition: 0.5s;
 }
-
+.container:hover .options{
+    /* background-color: red; */
+    opacity: 1;
+}
 .rating{
     display: flex;
     justify-content: space-between;

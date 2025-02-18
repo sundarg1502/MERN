@@ -1,0 +1,185 @@
+:root{
+    --grren:#38e798;
+    --voilet:#7f6EB2;
+    --dark:#2B2B2B;
+}
+body{
+    height: 100vh;
+    overflow: hidden;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background:linear-gradient(to top right, var(--grren),var(--voilet));
+}
+.card{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    border-radius: 30px;
+    width: 300px;
+    /* height: 90vh; */
+    background-color: var(--dark);
+}
+.basicInfo{
+    background-color: #f5f5f5;
+    border-radius: 30px;
+    padding: 25px;
+    position: relative;
+}
+.title .category,
+.title .info{
+    font-weight: 600;
+    font-size: x-small;
+}
+.title .name{
+    font-weight: bold;
+    font-size: large;
+    padding-bottom: 3px;
+}
+.card .img{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+.card .img img{
+    width: 100%;
+    height: 100%;
+    transform: scale(1) rotate(20deg);
+    display: none;
+    transition: 0.5s;
+}
+.img input:checked ~ img{
+    display: block;
+}
+.card .img::before{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #e7e7e7;
+    content: "";
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index:-2;
+}
+.card .img::after{
+    position: absolute;
+    content: "";
+    height: 40px;
+    width: 70%;
+    background-color: #000;
+    z-index: -1;
+    filter: blur(10px);
+    opacity: 0.2;
+    right: 30px;
+    bottom: 0;
+    transition: 0.5s;
+    transform: rotate(-10deg);
+}
+.img input{
+    position: absolute;
+    opacity: 0;
+}
+.colors{
+    display: flex;
+    font-size: xx-small;
+    text-align: center;
+}
+.colors label{
+    margin-right: 10px;
+}
+.colors .name{
+    margin-bottom: 5px;
+}
+.colors .ellipse{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.mores{
+    padding: 25px;
+}
+.mores .stars,
+.mores .price{
+    display: inline-block;
+}
+.mores .price{
+    float: right;
+    color:#eee;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.mores .stars{
+    color:#9b9a9a;
+}
+.text-yellow{
+    color:rgb(209,209,6)
+}
+.addCard{
+    position: absolute;
+    width:100%;
+    bottom: 0;
+}
+.addCard i{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: var(--grren);
+    color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    right:90px;
+    bottom: -25px;
+    border: 5px solid var(--dark);
+    transition: 0.5s;
+    opacity: 0;
+    transform: translate(0px,20px);
+}
+.addCard::before{
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    /* background-color: red; */
+    right:44px;
+    bottom: 0px;
+    /* z-index: -1; */
+    border-bottom-left-radius:55%;
+    transform: translate(0px,20px);
+    box-shadow: 0 20px 0 0 var(--dark);
+    opacity: 0;
+    transition: 0.5s;
+}
+.addCard::after{
+    content:'';
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    /* background-color: red; */
+    left:107px;
+    bottom: 0px;
+    border-bottom-right-radius: 50%;
+    transform: translate(0px,20px);
+    transition: 0.5s;
+    box-shadow: 0px 11px var(--dark);
+    opacity: 0;
+}
+.card:hover .img img{
+    transform: scale(1.1 ) rotate(0deg);
+}
+.card:hover .img::after{
+    /* width:80%; */
+    transform: translate(10px) rotate(-30deg);
+
+}
+.card:hover .addCard i{
+    opacity: 1;
+    transform: translate(0px,0px);
+}
+.card:hover .addCard::after,
+.card:hover .addCard::before{
+    opacity: 1;
+    transform: translate(0px,0px);
+}

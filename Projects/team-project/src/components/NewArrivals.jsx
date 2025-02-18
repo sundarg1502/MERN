@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import axios from "axios"
 import "/src/styles/Newarrivals.css"
+import Details from "./Details"
 
 const NewArrivals = () => {
     const [products, setProducts] = useState({})
@@ -42,6 +43,7 @@ const NewArrivals = () => {
                                     <div className="options">
                                         <p>Heart</p>
                                         <button>👁</button>
+                                        {/* <Details/> */}
                                         <p>Loop</p>
                                         <p>Cart3</p>
                                     </div>

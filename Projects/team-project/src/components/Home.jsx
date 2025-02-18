@@ -4,6 +4,7 @@ import homeImage from "/src/assets/hero.png"
 import "/src/styles/Home.css"
 import Vendors from "./Vendors"
 import NewArrivals from "./NewArrivals"
+import Details from "./Details"
 const Home = () => {
   const category = [
     {
@@ -44,6 +45,7 @@ const Home = () => {
       <Hero data={category}/>
       <Vendors/>
       <NewArrivals/>
+      {/* <Details/> */}
     </>
   )
 }
