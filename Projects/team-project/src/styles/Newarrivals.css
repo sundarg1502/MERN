@@ -78,10 +78,44 @@
     opacity: 0;
     transition: 0.5s;
 }
+.options button{
+    height: 20px;width: 20px;
+    text-align: center;
+    border-radius: 50%;
+    border: none;
+    transition: 1.5s;
+    transform: translateY(40px);
+}   
+
 .container:hover .options{
     /* background-color: red; */
     opacity: 1;
 }
+.options button:nth-child(1){
+    transition: 0.6s;
+}
+.options button:nth-child(2){
+    transition: 1.3s;
+}
+.options button:nth-child(3){
+    transition: 1.8s;
+}
+.options button:nth-child(4){
+    transition: 2.3s;
+}
+.container:hover .options button:nth-child(1){
+    transform: translateY(0);
+}
+.container:hover .options button:nth-child(2){
+    transform: translateY(0);
+}
+.container:hover .options button:nth-child(3){
+    transform: translateY(0);
+}
+.container:hover .options button:nth-child(4){
+    transform: translateY(0);
+}
+
 .rating{
     display: flex;
     justify-content: space-between;

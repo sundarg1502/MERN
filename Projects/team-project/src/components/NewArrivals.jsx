@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react"
 import axios from "axios"
 import "/src/styles/Newarrivals.css"
-import Details from "./Details"
 
 const NewArrivals = () => {
     const [products, setProducts] = useState({})
     const [fetchData, setFetach] = useState(false)
+    var setFavItemsObj = {} 
     useEffect(() => {
         axios.get("http://localhost:8000/Product")
             .then(response => {
@@ -15,7 +15,26 @@ const NewArrivals = () => {
             .then(error => console.log(error))
     }, []
     )
-    console.log(products)
+    const handleFav = (e)=>{
+        for(var data of products){
+            if(e.target.value === data.name){
+                setFavItemsObj.productId = data.id
+                setFavItemsObj.product = data.name
+                setFavItemsObj.Category = data.Category
+                setFavItemsObj.image = data.image
+                break
+
+            }
+        }
+        if(setFavItemsObj.length!==0){
+            console.log(setFavItemsObj)
+            axios.post("http://localhost:8000/Favourite",setFavItemsObj)
+            .then(response=>alert("Produt added to Wishlist"))
+            .catch(err=>console.log(err))
+        }
+        console.log(e.target.name)
+        console.log(e.target.value)
+    }
     return (
         <div className="new-arrivals">
             <div className="arrival-container">
@@ -41,11 +60,10 @@ const NewArrivals = () => {
                                 <div className="image">
                                     <img src={product.image} alt="" />
                                     <div className="options">
-                                        <p>Heart</p>
+                                        <button onClick={handleFav} name="FavButon" value={product.name}>♥</button>
                                         <button>👁</button>
-                                        {/* <Details/> */}
-                                        <p>Loop</p>
-                                        <p>Cart3</p>
+                                        <button >🔃</button>
+                                        <button>🧷</button>
                                     </div>
                                 </div>
                                 <div className="content">
