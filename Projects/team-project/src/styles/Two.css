@@ -14,7 +14,7 @@
     transition:  all 1.5s ease-in;
  } 
  .pic-container:nth-child(2){
-    background-color: lightpink;
+    background-color:  #ffc6ce;
  }
 .pic h2{
   
@@ -67,7 +67,7 @@
  }
  .pic-container:nth-child(2)::before,
  .pic-container:nth-child(2)::after{
-    background-color: #ffc6ce;
+    background-color: lightpink;
  }
 .pic-container:hover:before{
     left:-250px

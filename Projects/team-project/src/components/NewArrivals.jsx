@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import axios from "axios"
 import "/src/styles/Newarrivals.css"
-
+import single from "/src/assets/vendor.jpg"
 const NewArrivals = () => {
     const [products, setProducts] = useState({})
     const [fetchData, setFetach] = useState(false)
@@ -58,7 +58,8 @@ const NewArrivals = () => {
                         {products.map((product, index) => (
                             <div key={index} className="container">
                                 <div className="image">
-                                    <img src={product.image} alt="" />
+                                    <img src={product.image} alt="" className="first-image"/>
+                                    <img src="https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/new-product/back-4.jpg" alt="" className="second-image"/>
                                     <div className="options">
                                         <button onClick={handleFav} name="FavButon" value={product.name}>♥</button>
                                         <button>👁</button>

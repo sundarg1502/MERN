@@ -295,6 +295,12 @@
       "product": "Mexico corn",
       "Category": "Spices",
       "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/22.jpg"
+    },
+    {
+      "id": "8e7e",
+      "product": "Ground Nuts Oil",
+      "Category": "Snacks",
+      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/1.jpg"
     }
   ]
 }
