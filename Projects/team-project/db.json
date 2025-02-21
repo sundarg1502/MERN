@@ -67,7 +67,8 @@
       "New Price": "$22",
       "Quantity": "500g",
       "rating": "⭐⭐⭐⭐⭐",
-      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/1.jpg"
+      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/1.jpg",
+      "id": "9dd7"
     },
     {
       "name": "Prganic Lithick Juice",
@@ -76,7 +77,8 @@
       "New Price": "$22",
       "Quantity": "500g",
       "rating": "⭐⭐⭐⭐⭐",
-      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/2.jpg"
+      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/2.jpg",
+      "id": "e879"
     },
     {
       "name": "Crunchy Banana chips",
@@ -85,7 +87,8 @@
       "New Price": "$22",
       "Quantity": "500g",
       "rating": "⭐⭐⭐⭐⭐",
-      "image": "https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/new-product/3.jpg"
+      "image": "https://maraviyainfotech.com/projects/blueberry-tailwind/assets/img/new-product/3.jpg",
+      "id": "9f66"
     },
     {
       "name": "Crunchy Potato chips",
@@ -94,7 +97,8 @@
       "New Price": "$18",
       "Quantity": "500g",
       "rating": "⭐⭐⭐⭐⭐",
-      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/4.jpg"
+      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/4.jpg",
+      "id": "2c22"
     },
     {
       "name": "Black Pepper Spice Pack",
@@ -103,7 +107,8 @@
       "New Price": "$22",
       "Quantity": "1 Pack",
       "rating": "⭐⭐⭐⭐⭐",
-      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/5.jpg"
+      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/5.jpg",
+      "id": "a2d2"
     },
     {
       "name": "Small Cardamom Spice Pack",
@@ -112,7 +117,8 @@
       "New Price": "$32",
       "Quantity": "200g",
       "rating": "⭐⭐⭐⭐⭐",
-      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/6.jpg"
+      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/6.jpg",
+      "id": "71a4"
     },
     {
       "name": "Chilli Flakes Pack",
@@ -121,7 +127,8 @@
       "New Price": "$29",
       "Quantity": "250g",
       "rating": "⭐⭐⭐⭐⭐",
-      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/7.jpg"
+      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/7.jpg",
+      "id": "16d2"
     },
     {
       "name": "Tomatto Ketchup Pack",
@@ -130,7 +137,8 @@
       "New Price": "$19",
       "Quantity": "200ml",
       "rating": "⭐⭐⭐⭐⭐",
-      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/8.jpg"
+      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/8.jpg",
+      "id": "4161"
     },
     {
       "name": "Organic dragon fruit",
@@ -139,7 +147,8 @@
       "New Price": "$5",
       "Quantity": "2Pcs",
       "rating": "⭐⭐⭐⭐⭐",
-      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/9.jpg"
+      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/9.jpg",
+      "id": "4513"
     },
     {
       "name": "Fresh blue berry",
@@ -148,7 +157,8 @@
       "New Price": "$25",
       "Quantity": "500g",
       "rating": "⭐⭐⭐⭐⭐",
-      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/10.jpg"
+      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/10.jpg",
+      "id": "52f0"
     },
     {
       "name": "Red Cherry Serbia",
@@ -157,7 +167,8 @@
       "New Price": "$6",
       "Quantity": "250g",
       "rating": "⭐⭐⭐⭐⭐",
-      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/11.jpg"
+      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/11.jpg",
+      "id": "62db"
     },
     {
       "name": "Kwangtung Fresh Litch",
@@ -166,7 +177,8 @@
       "New Price": "$2",
       "Quantity": "200g",
       "rating": "⭐⭐⭐⭐⭐",
-      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/12.jpg"
+      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/12.jpg",
+      "id": "044a"
     },
     {
       "name": "Fresh Orange",
@@ -175,7 +187,8 @@
       "New Price": "$10",
       "Quantity": "12Pcs",
       "rating": "⭐⭐⭐⭐⭐",
-      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/13.jpg"
+      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/13.jpg",
+      "id": "4c83"
     },
     {
       "name": "Red Guava",
@@ -184,7 +197,8 @@
       "New Price": "$15",
       "Quantity": "2kg",
       "rating": "⭐⭐⭐⭐⭐",
-      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/14.jpg"
+      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/14.jpg",
+      "id": "38af"
     },
     {
       "name": "Organic Kesar Mango",
@@ -193,7 +207,8 @@
       "New Price": "$20kg",
       "Quantity": "500g",
       "rating": "⭐⭐⭐⭐⭐",
-      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/15.jpg"
+      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/15.jpg",
+      "id": "9bdf"
     },
     {
       "name": "Organic Banana",
@@ -202,7 +217,8 @@
       "New Price": "$9",
       "Quantity": "12Pcs",
       "rating": "⭐⭐⭐⭐⭐",
-      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/16.jpg"
+      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/16.jpg",
+      "id": "dfbb"
     },
     {
       "name": "Tomatto",
@@ -211,7 +227,8 @@
       "New Price": "$22",
       "Quantity": "500g",
       "rating": "⭐⭐⭐⭐⭐",
-      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/17.jpg"
+      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/17.jpg",
+      "id": "ee73"
     },
     {
       "name": "Ecuador Red Potato",
@@ -220,7 +237,8 @@
       "New Price": "$25",
       "Quantity": "10kg",
       "rating": "⭐⭐⭐⭐⭐",
-      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/18.jpg"
+      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/18.jpg",
+      "id": "e9b7"
     },
     {
       "name": "Red Organic Onion",
@@ -229,7 +247,8 @@
       "New Price": "$10",
       "Quantity": "5kg",
       "rating": "⭐⭐⭐⭐⭐",
-      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/19.jpg"
+      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/19.jpg",
+      "id": "3a1c"
     },
     {
       "name": "Fresh Coriander",
@@ -238,7 +257,8 @@
       "New Price": "$1",
       "Quantity": "2kg",
       "rating": "⭐⭐⭐⭐⭐",
-      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/20.jpg"
+      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/20.jpg",
+      "id": "bf41"
     },
     {
       "name": "America Capcicum",
@@ -247,7 +267,8 @@
       "New Price": "$4",
       "Quantity": "500g",
       "rating": "⭐⭐⭐⭐⭐",
-      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/21.jpg"
+      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/21.jpg",
+      "id": "985c"
     },
     {
       "name": "Mexico corn",
@@ -256,7 +277,8 @@
       "New Price": "$12",
       "Quantity": "2Pcs",
       "rating": "⭐⭐⭐⭐⭐",
-      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/22.jpg"
+      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/22.jpg",
+      "id": "a1bc"
     },
     {
       "name": "Jamaica Ginger",
@@ -265,7 +287,8 @@
       "New Price": "$3",
       "Quantity": "250g",
       "rating": "⭐⭐⭐⭐⭐",
-      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/23.jpg"
+      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/23.jpg",
+      "id": "a0c9"
     },
     {
       "name": "Fresh Lemon",
@@ -274,33 +297,56 @@
       "New Price": "$4",
       "Quantity": "20g",
       "rating": "⭐⭐⭐⭐⭐",
-      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/24.jpg"
+      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/24.jpg",
+      "id": "dd59"
     }
   ],
   "Favourite": [
     {
-      "id": "1d8e",
-      "product": "Tomatto",
-      "Category": "Veg",
-      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/17.jpg"
+      "id": "a7d7",
+      "productId": "dfbb",
+      "product": "Organic Banana",
+      "Category": "Fruit",
+      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/16.jpg",
+      "stars": "⭐⭐⭐⭐⭐"
     },
     {
-      "id": "de0e",
-      "product": "Red Organic Onion",
-      "Category": "Vegetable",
-      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/19.jpg"
+      "id": "2941",
+      "productId": "38af",
+      "product": "Red Guava",
+      "Category": "Fruit",
+      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/14.jpg",
+      "stars": "⭐⭐⭐⭐⭐"
     },
     {
-      "id": "5b2f",
-      "product": "Mexico corn",
-      "Category": "Spices",
-      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/22.jpg"
+      "id": "9a7a",
+      "productId": "dfbb",
+      "product": "Organic Banana",
+      "Category": "Fruit",
+      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/16.jpg",
+      "stars": "⭐⭐⭐⭐⭐"
+    }
+  ],
+  "Cart": [
+    {
+      "id": "dfbb",
+      "name": "Organic Banana",
+      "count": 2
     },
     {
-      "id": "8e7e",
-      "product": "Ground Nuts Oil",
-      "Category": "Snacks",
-      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/1.jpg"
+      "id": "dfbb",
+      "name": "Organic Banana",
+      "count": 3
+    },
+    {
+      "id": "dfbb",
+      "name": "Organic Banana",
+      "count": 2
+    },
+    {
+      "id": "dfbb",
+      "name": "Organic Banana",
+      "count": 0
     }
   ]
 }

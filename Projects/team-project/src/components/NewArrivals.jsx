@@ -22,6 +22,7 @@ const NewArrivals = () => {
                 setFavItemsObj.product = data.name
                 setFavItemsObj.Category = data.Category
                 setFavItemsObj.image = data.image
+                setFavItemsObj.stars = data.rating
                 break
 
             }
@@ -77,6 +78,9 @@ const NewArrivals = () => {
                                         <p ><span className="s">{product["Old price"]}</span> <del><span className="e">{product["New Price"]}</span></del> < span className="a">{product.Quantity}</span></p>
                                     </div>
                                 </div>
+                                {/* <div className="eye-hide">
+                                    add to Cart
+                                </div> */}
                             </div>
                         ))}
                     </div>
