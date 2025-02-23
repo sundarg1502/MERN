@@ -10,8 +10,7 @@ const TwoProducts = () => {
                 </div>
                 <div className="pic">
                     <h2>Tasty Snack<br></br>& Fast food </h2>
-                    <p>The flavour of something</p>
-                    <p>special</p>
+                    <p>The flavour of something special    </p>
                     <div className="to">
                         <button type="Shop ">Shop Now</button>
                     </div>

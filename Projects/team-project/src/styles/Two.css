@@ -1,14 +1,22 @@
-
+.parent{
+    display: flex;
+    /* grid-template-columns: 1fr 1fr; */
+    /* background-color: red; */
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
 .pic-container{
     border: 0.1px solid;
-    width: 700px;
-    height: 340px;
+    width: 600px;
+    height: 300px;
     border-radius: 20px;
     background-color: antiquewhite;
     display: flex;
-    justify-content: end;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
-     margin-left: 180px; 
+     /* margin-left: 180px;  */
     overflow: hidden;
     position: relative;
     transition:  all 1.5s ease-in;
@@ -16,14 +24,14 @@
  .pic-container:nth-child(2){
     background-color:  #ffc6ce;
  }
-.pic h2{
-  
-    margin-left: 0px;
-    margin-right: 100px;
-    margin-top: 50px;
+.pic{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:10px;
+    margin: -50px;
 }
 .cake{ 
-
      z-index: 101;
 }
 .cake img{
@@ -31,9 +39,17 @@
    margin-right: 100px;
 }
 .to button{
-    margin-top: 50px;
-    border-radius:20px;
-    font-size: large;
+      border:none;
+        height:40px;
+        width:150px;
+        border-radius: 25px;
+        transition: all 0.3s linear;
+        background-color: #6c7fd8;
+        color:white;
+        cursor: pointer;
+}
+.to button:hover{
+    background-color: red;
 }
 .pic p{
     color:lightslategrey;

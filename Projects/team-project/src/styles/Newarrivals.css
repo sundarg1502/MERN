@@ -35,10 +35,14 @@
 .arr-nav ul li{
     list-style: none;
 }
+.arr-products{
+    /* background-color: red; */
+}
 .product-list{
     display: grid;
     /* background-color: red; */
     grid-template-columns: 1fr 1fr;
+    margin: 10px 290px;
 }
 .container{
     border: 0.1px solid #e5e7eb;

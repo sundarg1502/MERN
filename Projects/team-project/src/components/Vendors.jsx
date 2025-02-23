@@ -36,7 +36,7 @@ const Vendors = () => {
         <div className="vendor-img">
             <img src={vendor} alt="" />
             <div className="small-image">
-                {/* <img src={small} alt="" /> */}
+                <img src={small} alt="" />
             </div>
         </div>
         <div className="vendor-details">
@@ -44,13 +44,13 @@ const Vendors = () => {
                 fetch 
                 &&
                 vendors.map((data,index)=>(
-                        <>
+                        <div className="vendor-detail">
                             <div className="name-items" key={index}>
                                 <h1>{data.name}</h1>
                                 <p>Fruits {data.Items.fruits} | Veg {data.Items.fruits} | Snacks {data.Items.fruits}</p>
                             </div>
-                            <p>{data.SaleAmount}</p>
-                        </>
+                            <p>Sales - {data.SaleAmount}</p>
+                        </div>
                     ))
                 
             

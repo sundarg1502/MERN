@@ -303,7 +303,7 @@
   ],
   "Favourite": [
     {
-      "id": "a7d7",
+      "id": "9a7a",
       "productId": "dfbb",
       "product": "Organic Banana",
       "Category": "Fruit",
@@ -311,15 +311,7 @@
       "stars": "⭐⭐⭐⭐⭐"
     },
     {
-      "id": "2941",
-      "productId": "38af",
-      "product": "Red Guava",
-      "Category": "Fruit",
-      "image": "https://maraviyainfotech.com/projects/blueberry-html/blueberry-html/assets/img/new-product/14.jpg",
-      "stars": "⭐⭐⭐⭐⭐"
-    },
-    {
-      "id": "9a7a",
+      "id": "b81c",
       "productId": "dfbb",
       "product": "Organic Banana",
       "Category": "Fruit",
